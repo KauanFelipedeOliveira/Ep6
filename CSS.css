@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body{
+    background-color: #fff9ea;
+    grid-gap: 5px;
+    display: grid;
+    grid-template-areas: 
+        "hea hea hea"
+        "mai mai mai"
+        "foo foo foo";
+    grid-template-columns: 20px auto auto;
+    grid-template-rows: 100px auto auto;
+}
+.header{
+    grid-area: hea;
+}
+.main{
+    grid-area: mai;
+}
+.footer{
+    grid-area: foo;
+
+}
