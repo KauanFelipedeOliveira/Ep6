@@ -41,3 +41,11 @@ body{
 h1{
     text-align: center;
 }
+
+.correto{
+    color: green;
+}
+
+.errado{
+    color: red;
+}
