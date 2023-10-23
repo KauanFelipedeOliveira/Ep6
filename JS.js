@@ -1,3 +1,13 @@
+function trocar(){
+    document.getElementById("figura").src = imgAtual;
+    let aux = imgAtual;
+    imgAtual = imgAnterior;
+    imgAnterior = aux;
+    
+    var imgAtual = "dois.jpg";
+    var imgAnterior = "um.jpg";
+}
+
 function inclui_nome() {
     var nome_variavel = prompt("Coloque seu nome:");
     if(nome_variavel){
@@ -8,7 +18,6 @@ function inclui_nome() {
         inclui_nome();
     }
 }
-
 function funcao_resposta(){
 
     var resp1 = document.querySelector('input[name="resposta_1"]:checked');
