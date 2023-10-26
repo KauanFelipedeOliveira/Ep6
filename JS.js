@@ -1,11 +1,11 @@
-function trocar(){
-    document.getElementById("figura").src = imgAtual;
-    let aux = imgAtual;
-    imgAtual = imgAnterior;
-    imgAnterior = aux;
-    
-    var imgAtual = "dois.jpg";
-    var imgAnterior = "um.jpg";
+var imagem = document.getElementById("imagem");
+
+function mudarImagem(){
+    imagem.src ="imagens/dois.jpg";
+}
+
+function restaurarImagem(){
+    imagem.src ="imagens/um.jpg";
 }
 
 function inclui_nome() {
@@ -17,6 +17,7 @@ function inclui_nome() {
         alert("Nome não atribuido, preencha o nome.");
         inclui_nome();
     }
+
 }
 function funcao_resposta(){
 
