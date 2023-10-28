@@ -75,6 +75,8 @@ body {
 }
 
 body {
+    margin: 0%;
+    background-color: rgba(78, 14, 14, 0.8);
     padding: 20px;
 }
 header{

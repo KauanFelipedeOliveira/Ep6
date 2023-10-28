@@ -1,11 +1,11 @@
 var imagem = document.getElementById("img-interativa");
 
 function mudarImagem(){
-    imagem.src ="imagens/dois.jpg";
+  imagem.src = "imagens/dois.jpg";
 }
 
 function restaurarImagem(){
-    imagem.src ="imagens/um.jpg";
+  imagem.src = "imagens/um.jpg";
 }
 
 function inclui_nome() {
