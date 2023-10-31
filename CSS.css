@@ -13,16 +13,19 @@
 header {
     grid-area: hea;
     background-color: rgb(255, 222, 33);
+    /*definiçao para o header*/
 }
 
 main {
     grid-area: mai;
     background-color: rgb(255, 178, 77);
+    /*definiçao para o main*/
 }
 
 footer {
     grid-area: foo;
     background-color: rgb(255, 222, 33);
+    /*definiçao para o footer*/
 }
 
 body {
@@ -35,6 +38,7 @@ body {
         "foo";
     grid-template-columns: auto;
     grid-template-rows: 100px auto auto;
+    /*definiçao para o grid dentro do body*/
 }
 
 @media only screen and (max-width: 820px) {
@@ -45,6 +49,7 @@ body {
             "foo";
         grid-template-columns: 1fr;
         grid-template-rows: 200px 50px 500px 200px;
+        /*responsividade*/
     }
 }
 
@@ -56,6 +61,7 @@ body {
             "foo";
         grid-template-columns: 1fr;
         grid-template-rows: 186px 500px 186px;
+        /*responsividade*/
     }
 }
 
@@ -67,6 +73,7 @@ body {
             "foo";
         grid-template-columns: 1fr;
         grid-template-rows: 100px 500px 100px;
+        /*responsividade*/
     }
 
     section {
@@ -83,9 +90,11 @@ body {
     margin: 0%;
     background-color: rgba(78, 14, 14, 0.8);
     padding: 20px;
+    /*definiçao do body*/
 }
 header{
     align-items: center;
+    /*alinhamento de itens*/
 }
 
 .links {
@@ -93,6 +102,7 @@ header{
     text-decoration: none;
     text-decoration: underline;
     font-size: 1.5rem;
+    /*estilo dos links*/
 }
 
 img{
@@ -100,18 +110,23 @@ img{
     width: 400px;
     display: flex;
     align-items: center;
+    /*definiçao das imagens*/
 }
 
 h1{
     text-align: center;
+    /*alinhamento do texto*/
+
 }
 
 .correto {
     color: green;
+    /*cor para questoes certas*/
 }
 
 .errado {
     color: red;
+    /*cor para questoes erradas*/
 }
 #logo {
     margin-right: 15px;
@@ -119,4 +134,5 @@ h1{
     height: 100px;
     border-radius: 70%;
     position: relative;
+    /*definiçao da logo*/
 }
